@@ -3161,7 +3161,7 @@ tbody.collapse.show {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  right: 71%;
   z-index: 1000;
   display: none;
   float: left;
@@ -3825,9 +3825,19 @@ tbody.collapse.show {
   list-style: none;
 }
 
+.nav2 {
+    display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: table-cell;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
 .nav-link {
   display: block;
-  padding: 0.5em 1em;
+  
 }
 
 .nav-link:focus, .nav-link:hover {
@@ -3922,7 +3932,6 @@ tbody.collapse.show {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0.5rem 1rem;
 }
 
 .navbar-brand {
@@ -4035,7 +4044,7 @@ tbody.collapse.show {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .navbar-toggleable .navbar-nav .nav-link {
+  .navbar-toggleable .navbar-nav  {
     padding-right: .5rem;
     padding-left: .5rem;
   }
@@ -4097,7 +4106,7 @@ tbody.collapse.show {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .navbar-toggleable-sm .navbar-nav .nav-link {
+  .navbar-toggleable-sm .navbar-nav {
     padding-right: .5rem;
     padding-left: .5rem;
   }
@@ -4159,7 +4168,7 @@ tbody.collapse.show {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .navbar-toggleable-md .navbar-nav .nav-link {
+  .navbar-toggleable-md .navbar-nav  {
     padding-right: .5rem;
     padding-left: .5rem;
   }
@@ -4221,7 +4230,7 @@ tbody.collapse.show {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .navbar-toggleable-lg .navbar-nav .nav-link {
+  .navbar-toggleable-lg .navbar-nav  {
     padding-right: .5rem;
     padding-left: .5rem;
   }
@@ -4283,7 +4292,7 @@ tbody.collapse.show {
           flex-direction: row;
 }
 
-.navbar-toggleable-xl .navbar-nav .nav-link {
+.navbar-toggleable-xl .navbar-nav  {
   padding-right: .5rem;
   padding-left: .5rem;
 }
